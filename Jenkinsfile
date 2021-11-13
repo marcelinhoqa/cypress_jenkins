@@ -11,7 +11,8 @@ pipeline {
         sh "apk upgrade --update"
         sh "apk update"
         sh "npm install"
-        sh "npm install cypress"
+        sh "mkdir /home/jenkins/.cache/" 
+        sh "mv /root/.cache/Cypress/ /home/jenkins/.cache/"
       }
     }
     stage("Test"){
