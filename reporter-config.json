@@ -1,0 +1,18 @@
+{   "importante":"não tem como comentar um json, ler o comentário da linha de baixo",
+    "comentario_sobre_reporterEnabled":"Se tiver como mocha-junit-reporter vai criar relatório para o junit, se tiver como cypress-multi-reporters vai criar relatório diferente para o cypress",
+    "reporterEnabled": "spec, mocha-junit-reporter",
+    "mochaJunitReporterReporterOptions": {
+      "mochaFile": "cypress/results/junit/results-[hash].xml"
+    },
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions":{
+            "reportDir": "cypress/results/mochawesome",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json":true
+        }
+    }
+  }
+

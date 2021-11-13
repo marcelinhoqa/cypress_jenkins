@@ -1,0 +1,6 @@
+{
+    "baseUrl" : "https://facebook.com/",
+    "env":{
+        "name": "Ambiente Stage"
+    }
+}
