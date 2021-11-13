@@ -10,8 +10,8 @@ pipeline {
 
         sh "apk upgrade --update"
         sh "apk update"
-        sh "npm install"
         sh "npm install -g cypress"
+        sh "npm install"
       }
     }
     stage("Test"){
