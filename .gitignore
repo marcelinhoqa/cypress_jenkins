@@ -1,7 +1,6 @@
 node_modules/
 cypress/videos/
 cypress/videos/*
-cypress/results/
 cypress/screenshots/
 cypress/mochawesome-report/
 cypress/videos/
