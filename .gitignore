@@ -6,3 +6,4 @@ cypress/mochawesome-report/
 cypress/videos/
 package-lock.json
 mochawesome.json
+.DS_Store
