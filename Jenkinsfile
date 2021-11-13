@@ -15,7 +15,7 @@ pipeline {
     }
     stage("Test"){
       steps {
-        sh "npm run cypress-regression-pack"
+        sh "npm run cypress-regression-pack-junit"
       }
       post {    //mesmo que falhe o teste ou não o método post envia 
         always { // always vai enviar SEMPRE
