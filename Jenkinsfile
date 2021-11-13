@@ -11,7 +11,7 @@ pipeline {
         sh "apk upgrade --update"
         sh "apk update"
         sh "npm install"
-        sh "cypress install"
+        sh "CYPRESS_CACHE_FOLDER=./tmp/Cypress npm install"
       }
     }
     stage("Test"){
