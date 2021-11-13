@@ -11,6 +11,7 @@ pipeline {
         sh "apk upgrade --update"
         sh "apk update"
         sh "npm install"
+        sh "./node_modules/.bin/cypress.sh install --force"
       }
     }
     stage("Test"){
