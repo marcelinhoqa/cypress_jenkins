@@ -10,7 +10,8 @@ pipeline {
 
         sh "apk upgrade --update"
         sh "apk update"
-        sh "npm ci"
+        sh 'npm ci'
+        sh 'npm run cy:verify'
         sh "pwd"
       }
     }
