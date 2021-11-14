@@ -7,12 +7,8 @@ pipeline {
   stages {
     stage("Build"){
       steps {
-
-        sh "apk upgrade --update"
-        sh "apk update"
         sh 'npm ci'
         sh 'npm run cy:verify'
-        sh "pwd"
       }
     }
     stage("Test"){
