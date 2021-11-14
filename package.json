@@ -19,7 +19,8 @@
     "cypress:e2e-stage-headed": "npx cypress run --spec cypress/integration/e2e/* --config-file cypress/config/stage.json --headed",
   
     "cypress:e2e-qa": "npx cypress run --spec cypress/integration/e2e/* --config-file cypress/config/qa.json",
-    "cypress:e2e-qa-headed": "npx cypress run --spec cypress/integration/e2e/* --config-file cypress/config/qa.json --headed"
+    "cypress:e2e-qa-headed": "npx cypress run --spec cypress/integration/e2e/* --config-file cypress/config/qa.json --headed",
+    "cy:verify": "cypress verify"
   
   },
   "author": "",
